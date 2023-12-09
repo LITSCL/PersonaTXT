@@ -30,7 +30,7 @@ public class Start {
 				salir = true;
 				break;
 			default:
-				System.out.println("Opci�n no valida");
+				System.out.println("Opción no valida");
 				break;
 			}	
 		}
@@ -45,7 +45,7 @@ public class Start {
 		try {
 			
 			   BufferedWriter bw = new BufferedWriter(new FileWriter("Personas.txt", true)); //Aca se crea el archivo si es que no existe.
-			   bw.write("Rut: " + rut + " Nombre: " + nombre + "\n"); //Escribe en el archivo y hace un salto de l�nea.
+			   bw.write("Rut: " + rut + " Nombre: " + nombre + "\n"); //Escribe en el archivo y hace un salto de línea.
 			   bw.flush();
 			   bw.close();
 			   
