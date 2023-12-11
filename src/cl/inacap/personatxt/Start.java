@@ -7,7 +7,6 @@ import java.io.FileWriter;
 import java.util.Scanner;
 
 public class Start {
-	
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		
