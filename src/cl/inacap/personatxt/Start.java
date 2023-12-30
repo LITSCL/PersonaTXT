@@ -19,18 +19,18 @@ public class Start {
 			String opcion = sc.nextLine();
 			
 			switch (opcion) {
-			case "1":
-				ingresarPersona();
-				break;
-			case "2":
-				mostrarPersonas();
-				break;
-			case "3":
-				salir = true;
-				break;
-			default:
-				System.out.println("Opción no valida");
-				break;
+				case "1":
+					ingresarPersona();
+					break;
+				case "2":
+					mostrarPersonas();
+					break;
+				case "3":
+					salir = true;
+					break;
+				default:
+					System.out.println("Opción no valida");
+					break;
 			}	
 		}
 	}
